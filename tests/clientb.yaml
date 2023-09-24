@@ -1,0 +1,4 @@
+gateway: gateway:80 # address of the gateway
+agent: agent
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDIiLCJuYW1lIjoiY2xpZW50YiIsImV4cCI6MTkxMDIyNzgwNiwicG9saWNpZXMiOnsicGVybWl0Ijp0cnVlLCJwb2xpY2llcyI6W3siQW55IjpbbnVsbCx0cnVlXX1dfX0.hugAg5lpoA1bUvFEkHoMfIh0cldJtR5XD1El0KfVmCc
+service_type: Ws # Wss or Ws (default: Wss)

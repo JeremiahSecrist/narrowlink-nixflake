@@ -1,0 +1,27 @@
+secret: [1,2,3,4,5,6,7,8]
+tokens: # list of tokens
+  - !Agent # agent token
+    uid: 00000000-0000-0000-0000-000000000003 # agent uid, please use a unique uid for each user
+    name: agent # agent name, please use a unique name for each agent
+    exp: 1904067200 # expiration time in seconds since epoch (Monday, January 1, 2024 0:00:00 GMT)
+  - !Client # client token
+    uid: 00000000-0000-0000-0000-000000000001 # client uid, please use a unique uid for each user
+    name: clienta # client name, please use a unique name for each client
+    exp: 1910227806 # expiration time in seconds since epoch
+    policies: # policies for this client
+      permit: true # whitelist mode
+      policies: # list of policies
+        - !Any # any type of protocols
+          - null # agent name, null means any agent
+          - true # allow or deny this agent
+  - !Client # client token
+    uid: 00000000-0000-0000-0000-000000000002 # client uid, please use a unique uid for each user
+    name: clientb # client name, please use a unique name for each client
+    exp: 1910227806 # expiration time in seconds since epoch
+    policies: # policies for this client
+      permit: true # whitelist mode
+      policies: # list of policies
+        - !Any # any type of protocols
+          - null # agent name, null means any agent
+          - true # allow or deny this agent
+

@@ -1,0 +1,3 @@
+gateway: gateway:80 # address of the gateway
+token: eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1aWQiOiIwMDAwMDAwMC0wMDAwLTAwMDAtMDAwMC0wMDAwMDAwMDAwMDMiLCJuYW1lIjoiYWdlbnQiLCJleHAiOjE5MDQwNjcyMDB9.Xc5TvUmJH52_j_iAcT0MdVKB_Q1Givo-KtKk1qF1BHE
+service_type: Ws
